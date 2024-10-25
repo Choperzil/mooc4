@@ -1,0 +1,56 @@
+
+.logo {
+    margin: auto 40%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.title {
+    margin-top: 15%;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+body {
+    height: 100%;
+}
+
+.img_pos {
+    float: right;
+    border: solid black;
+}
+
+.img_pos2 {
+    float: right;
+    display: block;
+    width: 30%;
+    margin-right: 50px;
+
+}
+
+.character {
+    margin-left: 50%;
+    display: block;
+}
+
+
+@media all and (min-width: 999px) {
+    .character {
+        margin-right: 10px;
+        margin-left: 40px;
+        display: inline-block;
+    }
+}
+
+
+
+
